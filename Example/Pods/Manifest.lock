@@ -3,7 +3,7 @@ PODS:
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
   - Pinyin4Swift (1.1.1)
-  - RJCityPicker (0.1.0):
+  - RJCityPicker (0.1.2):
     - FMDB
     - Pinyin4Swift
 
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Pinyin4Swift: 09c0ecc0419373836c20f14da569b27b58ce8481
-  RJCityPicker: 64b29066da90d26746fd89ed126a32e00200e84b
+  RJCityPicker: 330842b45f97311848dac0b0f303854b96a3eca2
 
 PODFILE CHECKSUM: f429676240bb6a57bf44853470c9bf4ce40f22cc
 

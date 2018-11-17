@@ -1,6 +1,6 @@
 {
   "name": "RJCityPicker",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "城市选择",
   "swift_version": "4.2",
   "description": "TODO: Add long description of the pod here.",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/A-Jun/RJCityPicker.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
