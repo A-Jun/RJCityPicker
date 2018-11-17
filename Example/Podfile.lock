@@ -1,0 +1,24 @@
+PODS:
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - Pinyin4Swift (1.1.1)
+  - RJCityPicker (0.1.0):
+    - FMDB
+    - Pinyin4Swift
+
+DEPENDENCIES:
+  - RJCityPicker (from `../`)
+
+EXTERNAL SOURCES:
+  RJCityPicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  Pinyin4Swift: 09c0ecc0419373836c20f14da569b27b58ce8481
+  RJCityPicker: 107ca7ce4c9b7a0032baa9de4cbe23c64ffad7c5
+
+PODFILE CHECKSUM: f429676240bb6a57bf44853470c9bf4ce40f22cc
+
+COCOAPODS: 1.4.0

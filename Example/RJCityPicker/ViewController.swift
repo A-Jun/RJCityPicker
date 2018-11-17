@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import RJCityPicker
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -19,6 +19,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let vc = RJCityPickerViewController()
+        vc.city { (city) in
+            print(city)
+        }
+        self.present(vc, animated: true, completion: nil)
+    }
 }
 
