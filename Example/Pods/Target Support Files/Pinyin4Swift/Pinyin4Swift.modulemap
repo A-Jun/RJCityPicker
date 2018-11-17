@@ -1,0 +1,6 @@
+framework module Pinyin4Swift {
+  umbrella header "Pinyin4Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

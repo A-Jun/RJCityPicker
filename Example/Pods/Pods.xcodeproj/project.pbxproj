@@ -1,0 +1,1461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0284705C5457D0C045D77A5C24BD87B2 /* RJCityPickerInitialsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E806F3D987FC9A073C80A53FA6B38CA /* RJCityPickerInitialsHeaderView.swift */; };
+		166FE45AB785D3E3F9D92761E9F9FCA4 /* RJLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F923ED9DBDE85AC1EE69D5BF521AAD /* RJLayout.swift */; };
+		20BCCD15D02258FC3000881021198424 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693E215E8B1396263A90C8B13D212646 /* Color+Extension.swift */; };
+		22554065FA07F1BFE5308A685394CB12 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0EEFF0D70D243BE76A16E2C8BFE21B /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2713CADF6C5AF54DAFBA99018FFDEA37 /* Pinyin4Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54127A11876A3944DC744DE0035887B7 /* Pinyin4Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ABE45AB141204FFCC77B8E8B5034FD7 /* Pods-RJCityPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8D210815FF971B683DBB31F29E46A54 /* Pods-RJCityPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E461FDACA9DA24B521E46587350F546 /* RJCityPickerSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8CB6FBABAD13B9AD104BEF516EF62A /* RJCityPickerSearchView.swift */; };
+		3138C9E9A18F2F0CF5A6E0ABB302A753 /* RJAreaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA7ACFD6EAE07D6963ECB447E2BE1FA /* RJAreaManager.swift */; };
+		339B23371643CCA6B71EBE0382E6C597 /* cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33428168BC0A51F6335BB3DE9A29ADF9 /* cities.plist */; };
+		37F097E2269EF1BD238AD7449D796445 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D5482562C17012EB61A53308D2632C /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3CBA2195703A6AB13D15E48451AFEB78 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFFB83836043E8317E1423787EDB65 /* UIView+Extension.swift */; };
+		3E43906B70EB01C06F3AE17008B853B9 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = C4C65AA5E8D23D4523A9E6BB7B604717 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40A980DBBC98D5516962CCD7404FFFF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B2EBA8A3915EC8A710CFA5763A50C6 /* Foundation.framework */; };
+		5FB79DF7B9C2E7E6FE146E9D4E76ACD3 /* OutputFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E18F28DA84FC0AA9BFCCB3EFC4BB71C /* OutputFormat.swift */; };
+		61C0988DCE74B6A51DB3E403F17DA8A5 /* Pinyin4Swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D3A69EB1BBD11F9F6F9C6001E225F300 /* Pinyin4Swift.bundle */; };
+		7138AA46A167BDBB0B8DE278E80BCF0D /* Pinyin4Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BDE2DD597FABE94C846A07546EFD13 /* Pinyin4Swift-dummy.m */; };
+		72563ADE99DC9E753B27D48B16AA3654 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B2EBA8A3915EC8A710CFA5763A50C6 /* Foundation.framework */; };
+		87ECA447DB887426665260651B7F147E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC15E6B2F0C2856D50DAFE14FC881F9 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8E6EC004E057A22DE0CA7990B0D1421D /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 276203C2427E95063B1BE8197055B087 /* unicode_to_hanyu_pinyin.txt */; };
+		914BE25C3A5703A0DF35F5CBE3D60C74 /* Bundle+Pinyin4Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C86C81856F64FE6AB0872841E6AF70A /* Bundle+Pinyin4Swift.swift */; };
+		91767D9DBEFD8189BC62C01CA57874F8 /* RJCityPickerHeaderViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B862A99FD11B08C920AF2D1A14334C5 /* RJCityPickerHeaderViewCollectionViewCell.swift */; };
+		96E70B43FC04BC99AED1BBD4FB1D7581 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B73977E88F3C65F9D8AB6D5FE830FA25 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97E374751CF601314C8AAF356E891EB8 /* RJLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E816F20F51F40D9F45800DFF10DD5D2 /* RJLocationManager.swift */; };
+		988C656AAD58CFBA870094C83C4B0118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B2EBA8A3915EC8A710CFA5763A50C6 /* Foundation.framework */; };
+		9B8D84996694C541CD3434386E0A081A /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 180A88ABD107E54DCCDEC50CCC2AA911 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C11A290C9C5866A185A54F1EC04E2BB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A395718C6EBACEBBA6ED229F9880053 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A1B5D80A8998311B8C9043E6942925E6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8356017D1CF714F9062B1092182503 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A2CB408C2511F9A8E03629F0199D0C02 /* Pods-RJCityPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5C1D7D29FB4C4472039A51B02394A3 /* Pods-RJCityPicker_Tests-dummy.m */; };
+		A4B3CE423EE1ED1CAEC7DB0FD135E09E /* RJCityPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE18E93B55F69D51A24A3A66FE0712AD /* RJCityPicker-dummy.m */; };
+		A548833BE5FAD40830428F36E77D0F52 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A60A0B437F4352C527A6D4178A536B /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A67E2B0264DD61071648D8781F94846E /* shop_area.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 3A1EB11C38DB50E55102C9BA2A60017C /* shop_area.sqlite */; };
+		AAD8836184B5F8BE044E380850D3C0F9 /* String+Pinyin4Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10988E8ED0007A07C47C5FD851299C1 /* String+Pinyin4Swift.swift */; };
+		AD40A3C4387002F5DCC54FDBA1AC4109 /* RJCityPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A685371F70CCE7E96FF5E380A1C0DEF /* RJCityPicker.bundle */; };
+		B463C6ACCB8FDC25D350CA17C0D2ABC8 /* PinyinFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457F4F5392D4D13F9ABF5A451E41EBAB /* PinyinFormatter.swift */; };
+		B4E580E485B602D4AE2388C94E9243D0 /* RJCityPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CC3D9CECDA19E88DF52F7AB3E737A5 /* RJCityPickerViewController.swift */; };
+		C574151C8393287125DDD590E47C4ADF /* Pods-RJCityPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDC549AB958F7AAC4CA2ABEBE6E544 /* Pods-RJCityPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5C931DF124C24B10B8B005E949A1F31 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D536CF7797A88008226C6E6FAC56DB0 /* FMDB.framework */; };
+		C605A44DF96E7FCACF7D6E37B62F795D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 66220179359C0BC0B68A08A80C73CDF2 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C72F0F367380CA935F19AE5BAD18C508 /* Pods-RJCityPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB61E730E70CD3A8BE1EC9D5A30DC8B2 /* Pods-RJCityPicker_Example-dummy.m */; };
+		C77E7E3F2D34D88318BC6EBADB5AFA12 /* PinyinResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562C41DA99DE64C3FC1C952EE07936C6 /* PinyinResource.swift */; };
+		C8A6FBD414FA93CB22666A4B3ABCB538 /* RJCityPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 744C0D64E71F118838255F7AF3778066 /* RJCityPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCB74062CE0F4B8E5B7483599BC398DA /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = D1AD4DCC00B0FFFFB566D6DCF3C33E2E /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE99914A080D51011FB12CFBFB160903 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA96243CDD764744AD4F81671E4C50B /* String+Extension.swift */; };
+		D5991941DC41DDDDDACAE0B5D47A4639 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B60D3ADFB4C0DCBAEEFF6EA3B6730 /* FMDB-dummy.m */; };
+		DA04B8ECA46BA6506758177AFD1F449C /* PinyinHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583B0EA39F605E9D71C3FA461C83428C /* PinyinHelper.swift */; };
+		DAB0DFB14ABDFBC52162FCAFF19A9510 /* Pinyin4Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A11BB9660E2B884019FA97140843AA /* Pinyin4Swift.framework */; };
+		DC261762F113707222738B2F761C7282 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B2EBA8A3915EC8A710CFA5763A50C6 /* Foundation.framework */; };
+		E4F849EC472C79C294AC7A994177E3D1 /* RJCityPickerCityHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4F6C4713CE9FAD99AFF3088EF3A7DD /* RJCityPickerCityHeaderView.swift */; };
+		F11FAB91014130EE233A3429439D38D7 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 429669CE5F62D3883562D964C0BCAD07 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDB7584A0E03E3925B279BECDEEA79A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B2EBA8A3915EC8A710CFA5763A50C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		588F254025616D6DCA246B8F1BD2C718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68C8E467BB1136994656A7BE25FD2491;
+			remoteInfo = RJCityPicker;
+		};
+		70B1F7ACADE730A11FD2C30407C649B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2DAEA50B344A0A6C4B27D75A83B38B4;
+			remoteInfo = "RJCityPicker-RJCityPicker";
+		};
+		7A73211780D38E3B1B5E7501E2DDEA25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251BAD17812F7EBF6532EACF66F941C3;
+			remoteInfo = FMDB;
+		};
+		AAF2DE8AB9478949DDC2C5571F129465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E526A8A284204836AD3E50A597BBA51;
+			remoteInfo = Pinyin4Swift;
+		};
+		D44A8681F2C970E26E6D0847D7B8C7C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E526A8A284204836AD3E50A597BBA51;
+			remoteInfo = Pinyin4Swift;
+		};
+		FAE4CC7938CB04A7894C662F26C39E74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 163065204827EA1818B19FD4D62C62A8;
+			remoteInfo = "Pinyin4Swift-Pinyin4Swift";
+		};
+		FCE9F3F17F4AFE8188FAFBB3F3D334F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251BAD17812F7EBF6532EACF66F941C3;
+			remoteInfo = FMDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0441115BEFE0D91E86E21AD07B35F3B4 /* Pinyin4Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pinyin4Swift.xcconfig; sourceTree = "<group>"; };
+		072B52298EC83200CC3B62B25B056E32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C86C81856F64FE6AB0872841E6AF70A /* Bundle+Pinyin4Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Pinyin4Swift.swift"; path = "Pinyin4Swift/Classes/Bundle+Pinyin4Swift.swift"; sourceTree = "<group>"; };
+		1097F3E7E1047D753D7D67FD1596A126 /* RJCityPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RJCityPicker.framework; path = RJCityPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		112A4CA86713A0C887949BC6D6830E71 /* Pods_RJCityPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RJCityPicker_Example.framework; path = "Pods-RJCityPicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		114E4FD11C42EE0A1A14AE3A47AB2022 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12B2EBA8A3915EC8A710CFA5763A50C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		148DFED19CFF988F3C6A764F9D512122 /* Pods-RJCityPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RJCityPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		180A88ABD107E54DCCDEC50CCC2AA911 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		1A685371F70CCE7E96FF5E380A1C0DEF /* RJCityPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RJCityPicker.bundle; path = "RJCityPicker-RJCityPicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8B60D3ADFB4C0DCBAEEFF6EA3B6730 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		1CB861A5CA0FF730165316C5A01140EF /* Pods-RJCityPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RJCityPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1DBBE38296B6D12B363B7226176391E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A11BB9660E2B884019FA97140843AA /* Pinyin4Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pinyin4Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		276203C2427E95063B1BE8197055B087 /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = unicode_to_hanyu_pinyin.txt; path = Pinyin4Swift/Resources/unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
+		2A395718C6EBACEBBA6ED229F9880053 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		2DA96243CDD764744AD4F81671E4C50B /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "RJCityPicker/Classes/String+Extension.swift"; sourceTree = "<group>"; };
+		2EF43EBD1987B4308FEE3ABB325968D7 /* Pods-RJCityPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJCityPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		33428168BC0A51F6335BB3DE9A29ADF9 /* cities.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = cities.plist; path = RJCityPicker/Assets/cities.plist; sourceTree = "<group>"; };
+		3A1EB11C38DB50E55102C9BA2A60017C /* shop_area.sqlite */ = {isa = PBXFileReference; includeInIndex = 1; name = shop_area.sqlite; path = RJCityPicker/Assets/shop_area.sqlite; sourceTree = "<group>"; };
+		3ACB7A955905E3A7DAC1220D3577FCBE /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		3B862A99FD11B08C920AF2D1A14334C5 /* RJCityPickerHeaderViewCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RJCityPickerHeaderViewCollectionViewCell.swift; path = RJCityPicker/Classes/RJCityPickerHeaderViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		3C388377768A59558535BE1B79B4BB1A /* Pods-RJCityPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RJCityPicker_Tests.modulemap"; sourceTree = "<group>"; };
+		3F4456D07438D67C87C153DBA560205B /* RJCityPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RJCityPicker-prefix.pch"; sourceTree = "<group>"; };
+		405DFC08E6C4241D733588CF5CAB3F22 /* RJCityPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RJCityPicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		40CD9D2DCF13619594A8440C8915E2D8 /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMDB.modulemap; sourceTree = "<group>"; };
+		429669CE5F62D3883562D964C0BCAD07 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		44BDE2DD597FABE94C846A07546EFD13 /* Pinyin4Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pinyin4Swift-dummy.m"; sourceTree = "<group>"; };
+		457F4F5392D4D13F9ABF5A451E41EBAB /* PinyinFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinyinFormatter.swift; path = Pinyin4Swift/Classes/PinyinFormatter.swift; sourceTree = "<group>"; };
+		4D4B8374723849D86925EB4C404FFB6D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4EA7ACFD6EAE07D6963ECB447E2BE1FA /* RJAreaManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RJAreaManager.swift; path = RJCityPicker/Classes/RJAreaManager.swift; sourceTree = "<group>"; };
+		50D303671C2551920166A64DBDD2934C /* Pods-RJCityPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RJCityPicker_Example-resources.sh"; sourceTree = "<group>"; };
+		51C7354FD4C5A45D3C14D0744BDBB3E7 /* RJCityPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RJCityPicker.modulemap; sourceTree = "<group>"; };
+		54127A11876A3944DC744DE0035887B7 /* Pinyin4Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pinyin4Swift-umbrella.h"; sourceTree = "<group>"; };
+		562C41DA99DE64C3FC1C952EE07936C6 /* PinyinResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinyinResource.swift; path = Pinyin4Swift/Classes/PinyinResource.swift; sourceTree = "<group>"; };
+		57A60A0B437F4352C527A6D4178A536B /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		583B0EA39F605E9D71C3FA461C83428C /* PinyinHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinyinHelper.swift; path = Pinyin4Swift/Classes/PinyinHelper.swift; sourceTree = "<group>"; };
+		5E0EEFF0D70D243BE76A16E2C8BFE21B /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		5E806F3D987FC9A073C80A53FA6B38CA /* RJCityPickerInitialsHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RJCityPickerInitialsHeaderView.swift; path = RJCityPicker/Classes/RJCityPickerInitialsHeaderView.swift; sourceTree = "<group>"; };
+		60501020C5A5223491B07685A0E6E23D /* RJCityPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RJCityPicker.xcconfig; sourceTree = "<group>"; };
+		655343638C68AAC197992614E0CAD90E /* Pods-RJCityPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RJCityPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		66220179359C0BC0B68A08A80C73CDF2 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		67A06E4701A3F459B0ACF963F1329CF6 /* ResourceBundle-Pinyin4Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Pinyin4Swift-Info.plist"; sourceTree = "<group>"; };
+		693E215E8B1396263A90C8B13D212646 /* Color+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Color+Extension.swift"; path = "RJCityPicker/Classes/Color+Extension.swift"; sourceTree = "<group>"; };
+		6C51801AE73057E5DEDFDE7E424B1C9B /* Pods-RJCityPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RJCityPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6CC43881B48ACC85A43082C84E51B2AC /* Pods-RJCityPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RJCityPicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		6CFA7A6104DFEA10267A27367176DD89 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E816F20F51F40D9F45800DFF10DD5D2 /* RJLocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RJLocationManager.swift; path = RJCityPicker/Classes/RJLocationManager.swift; sourceTree = "<group>"; };
+		73799FD6B5EDB4FA20B79A3D84A2B519 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		744C0D64E71F118838255F7AF3778066 /* RJCityPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RJCityPicker-umbrella.h"; sourceTree = "<group>"; };
+		81F6D3447DB7136E15FF4EE32235DAC5 /* Pods-RJCityPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RJCityPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8E5C1D7D29FB4C4472039A51B02394A3 /* Pods-RJCityPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RJCityPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		90F923ED9DBDE85AC1EE69D5BF521AAD /* RJLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RJLayout.swift; path = RJCityPicker/Classes/RJLayout.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96091FF2B8EE2183CD9DE5DB79541750 /* ResourceBundle-RJCityPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RJCityPicker-Info.plist"; sourceTree = "<group>"; };
+		98EE0FC17021C08A73DA879CCAF622EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99394FED31E049AD588FF126F838D0C1 /* Pods-RJCityPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJCityPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D536CF7797A88008226C6E6FAC56DB0 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E18F28DA84FC0AA9BFCCB3EFC4BB71C /* OutputFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OutputFormat.swift; path = Pinyin4Swift/Classes/OutputFormat.swift; sourceTree = "<group>"; };
+		9E3CE8A8230841927E718866D463C41D /* Pods-RJCityPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJCityPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A769B2084EE298698CB86A18A784F03D /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BFFB83836043E8317E1423787EDB65 /* UIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "RJCityPicker/Classes/UIView+Extension.swift"; sourceTree = "<group>"; };
+		AB8CB6FBABAD13B9AD104BEF516EF62A /* RJCityPickerSearchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RJCityPickerSearchView.swift; path = RJCityPicker/Classes/RJCityPickerSearchView.swift; sourceTree = "<group>"; };
+		B07AC35EB671F4462B5357081DBD781F /* Pods-RJCityPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RJCityPicker_Example.modulemap"; sourceTree = "<group>"; };
+		B10988E8ED0007A07C47C5FD851299C1 /* String+Pinyin4Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Pinyin4Swift.swift"; path = "Pinyin4Swift/Classes/String+Pinyin4Swift.swift"; sourceTree = "<group>"; };
+		B172CE19D6F8FEF2CD805CBE53BE67B5 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		B4A0B25976C35D380ADA5286E2488A3E /* Pods-RJCityPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJCityPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B73977E88F3C65F9D8AB6D5FE830FA25 /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
+		B8D210815FF971B683DBB31F29E46A54 /* Pods-RJCityPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RJCityPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BB61E730E70CD3A8BE1EC9D5A30DC8B2 /* Pods-RJCityPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RJCityPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		BBCDC549AB958F7AAC4CA2ABEBE6E544 /* Pods-RJCityPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RJCityPicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		BC8356017D1CF714F9062B1092182503 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		C277CF7737C82793DAB9EF363B8722EE /* Pinyin4Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pinyin4Swift-prefix.pch"; sourceTree = "<group>"; };
+		C49121696E2102CD43DCE6E0F855436C /* Pinyin4Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Pinyin4Swift.modulemap; sourceTree = "<group>"; };
+		C4C65AA5E8D23D4523A9E6BB7B604717 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		C7D5482562C17012EB61A53308D2632C /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		CBC15E6B2F0C2856D50DAFE14FC881F9 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		CF4F6C4713CE9FAD99AFF3088EF3A7DD /* RJCityPickerCityHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RJCityPickerCityHeaderView.swift; path = RJCityPicker/Classes/RJCityPickerCityHeaderView.swift; sourceTree = "<group>"; };
+		D1AD4DCC00B0FFFFB566D6DCF3C33E2E /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		D3A69EB1BBD11F9F6F9C6001E225F300 /* Pinyin4Swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Pinyin4Swift.bundle; path = "Pinyin4Swift-Pinyin4Swift.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D500169EA16AF2D5ADD65D7781EC509C /* Pods_RJCityPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RJCityPicker_Tests.framework; path = "Pods-RJCityPicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70365D27058ED9D1CB8C5A7683F7A5B /* Pods-RJCityPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RJCityPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3F17BC3B7C90061EB0FBCFF4CDC386B /* Pinyin4Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pinyin4Swift.framework; path = Pinyin4Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CC3D9CECDA19E88DF52F7AB3E737A5 /* RJCityPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RJCityPickerViewController.swift; path = RJCityPicker/Classes/RJCityPickerViewController.swift; sourceTree = "<group>"; };
+		FE18E93B55F69D51A24A3A66FE0712AD /* RJCityPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RJCityPicker-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BEDFCA96FA268A2A6AA1B8D97AE8D55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB7584A0E03E3925B279BECDEEA79A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6575C6B9F899B8E53C3DD0B080DBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8F3201B185BF193F54EDEAE12D8507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C931DF124C24B10B8B005E949A1F31 /* FMDB.framework in Frameworks */,
+				DC261762F113707222738B2F761C7282 /* Foundation.framework in Frameworks */,
+				DAB0DFB14ABDFBC52162FCAFF19A9510 /* Pinyin4Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEF96E2D344A79EBCB767C98A663B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE20EE04BF6719A14AEDBF9E2635D198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988C656AAD58CFBA870094C83C4B0118 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AD239FBCD3D26587DE34C51AADEEA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A980DBBC98D5516962CCD7404FFFF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFB61A65EB8DA6653B544822EB9CE44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72563ADE99DC9E753B27D48B16AA3654 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063882BF645109786B9301C50EAE45B0 /* Pinyin4Swift */ = {
+			isa = PBXGroup;
+			children = (
+				0C86C81856F64FE6AB0872841E6AF70A /* Bundle+Pinyin4Swift.swift */,
+				9E18F28DA84FC0AA9BFCCB3EFC4BB71C /* OutputFormat.swift */,
+				457F4F5392D4D13F9ABF5A451E41EBAB /* PinyinFormatter.swift */,
+				583B0EA39F605E9D71C3FA461C83428C /* PinyinHelper.swift */,
+				562C41DA99DE64C3FC1C952EE07936C6 /* PinyinResource.swift */,
+				B10988E8ED0007A07C47C5FD851299C1 /* String+Pinyin4Swift.swift */,
+				8D87CC66E231DDEFA2E7AFCF299F08B2 /* Resources */,
+				A92D231D8451B1F656EC65640F6A9887 /* Support Files */,
+			);
+			name = Pinyin4Swift;
+			path = Pinyin4Swift;
+			sourceTree = "<group>";
+		};
+		138067EF7933B196F68884DEB046BBE0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40CD9D2DCF13619594A8440C8915E2D8 /* FMDB.modulemap */,
+				B172CE19D6F8FEF2CD805CBE53BE67B5 /* FMDB.xcconfig */,
+				1A8B60D3ADFB4C0DCBAEEFF6EA3B6730 /* FMDB-dummy.m */,
+				3ACB7A955905E3A7DAC1220D3577FCBE /* FMDB-prefix.pch */,
+				B73977E88F3C65F9D8AB6D5FE830FA25 /* FMDB-umbrella.h */,
+				072B52298EC83200CC3B62B25B056E32 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		1FCE48D261C4A4F8844089F3E5048EBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A769B2084EE298698CB86A18A784F03D /* FMDB.framework */,
+				D3A69EB1BBD11F9F6F9C6001E225F300 /* Pinyin4Swift.bundle */,
+				F3F17BC3B7C90061EB0FBCFF4CDC386B /* Pinyin4Swift.framework */,
+				112A4CA86713A0C887949BC6D6830E71 /* Pods_RJCityPicker_Example.framework */,
+				D500169EA16AF2D5ADD65D7781EC509C /* Pods_RJCityPicker_Tests.framework */,
+				1A685371F70CCE7E96FF5E380A1C0DEF /* RJCityPicker.bundle */,
+				1097F3E7E1047D753D7D67FD1596A126 /* RJCityPicker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		242CCA5C6D03B66E81FD7A8B2CBADD80 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				12B2EBA8A3915EC8A710CFA5763A50C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		29CF18DDA3226C6C3311E374C9A74FEF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92BF21E27487CFB43F9CF1599199A12E /* RJCityPicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5887F728D7F8D69FE229D6EEFCBCC672 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				429669CE5F62D3883562D964C0BCAD07 /* FMDatabase.h */,
+				C7D5482562C17012EB61A53308D2632C /* FMDatabase.m */,
+				57A60A0B437F4352C527A6D4178A536B /* FMDatabaseAdditions.h */,
+				2A395718C6EBACEBBA6ED229F9880053 /* FMDatabaseAdditions.m */,
+				180A88ABD107E54DCCDEC50CCC2AA911 /* FMDatabasePool.h */,
+				66220179359C0BC0B68A08A80C73CDF2 /* FMDatabasePool.m */,
+				5E0EEFF0D70D243BE76A16E2C8BFE21B /* FMDatabaseQueue.h */,
+				BC8356017D1CF714F9062B1092182503 /* FMDatabaseQueue.m */,
+				D1AD4DCC00B0FFFFB566D6DCF3C33E2E /* FMDB.h */,
+				C4C65AA5E8D23D4523A9E6BB7B604717 /* FMResultSet.h */,
+				CBC15E6B2F0C2856D50DAFE14FC881F9 /* FMResultSet.m */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		58CA194B97185297ECC6179D6DE4B0FE /* Pods-RJCityPicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				114E4FD11C42EE0A1A14AE3A47AB2022 /* Info.plist */,
+				B07AC35EB671F4462B5357081DBD781F /* Pods-RJCityPicker_Example.modulemap */,
+				6C51801AE73057E5DEDFDE7E424B1C9B /* Pods-RJCityPicker_Example-acknowledgements.markdown */,
+				E70365D27058ED9D1CB8C5A7683F7A5B /* Pods-RJCityPicker_Example-acknowledgements.plist */,
+				BB61E730E70CD3A8BE1EC9D5A30DC8B2 /* Pods-RJCityPicker_Example-dummy.m */,
+				148DFED19CFF988F3C6A764F9D512122 /* Pods-RJCityPicker_Example-frameworks.sh */,
+				50D303671C2551920166A64DBDD2934C /* Pods-RJCityPicker_Example-resources.sh */,
+				BBCDC549AB958F7AAC4CA2ABEBE6E544 /* Pods-RJCityPicker_Example-umbrella.h */,
+				99394FED31E049AD588FF126F838D0C1 /* Pods-RJCityPicker_Example.debug.xcconfig */,
+				2EF43EBD1987B4308FEE3ABB325968D7 /* Pods-RJCityPicker_Example.release.xcconfig */,
+			);
+			name = "Pods-RJCityPicker_Example";
+			path = "Target Support Files/Pods-RJCityPicker_Example";
+			sourceTree = "<group>";
+		};
+		59B840B0E0D4088C10FD41CA77E31C29 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				73799FD6B5EDB4FA20B79A3D84A2B519 /* LICENSE */,
+				4D4B8374723849D86925EB4C404FFB6D /* README.md */,
+				405DFC08E6C4241D733588CF5CAB3F22 /* RJCityPicker.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		62E8E55A2EC9B1EBCF719C9D351CF219 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98EE0FC17021C08A73DA879CCAF622EF /* Info.plist */,
+				96091FF2B8EE2183CD9DE5DB79541750 /* ResourceBundle-RJCityPicker-Info.plist */,
+				51C7354FD4C5A45D3C14D0744BDBB3E7 /* RJCityPicker.modulemap */,
+				60501020C5A5223491B07685A0E6E23D /* RJCityPicker.xcconfig */,
+				FE18E93B55F69D51A24A3A66FE0712AD /* RJCityPicker-dummy.m */,
+				3F4456D07438D67C87C153DBA560205B /* RJCityPicker-prefix.pch */,
+				744C0D64E71F118838255F7AF3778066 /* RJCityPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RJCityPicker";
+			sourceTree = "<group>";
+		};
+		68F4237F27F22409A4C0411849C51069 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D536CF7797A88008226C6E6FAC56DB0 /* FMDB.framework */,
+				21A11BB9660E2B884019FA97140843AA /* Pinyin4Swift.framework */,
+				242CCA5C6D03B66E81FD7A8B2CBADD80 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				29CF18DDA3226C6C3311E374C9A74FEF /* Development Pods */,
+				68F4237F27F22409A4C0411849C51069 /* Frameworks */,
+				E091A7F61B6C5FAB3790689A804FFD05 /* Pods */,
+				1FCE48D261C4A4F8844089F3E5048EBF /* Products */,
+				B6B1A89B6C0615283693CAA1312F531F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		816A6FE7F79E604FE2FF1D60CD621B55 /* Pods-RJCityPicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1DBBE38296B6D12B363B7226176391E8 /* Info.plist */,
+				3C388377768A59558535BE1B79B4BB1A /* Pods-RJCityPicker_Tests.modulemap */,
+				1CB861A5CA0FF730165316C5A01140EF /* Pods-RJCityPicker_Tests-acknowledgements.markdown */,
+				655343638C68AAC197992614E0CAD90E /* Pods-RJCityPicker_Tests-acknowledgements.plist */,
+				8E5C1D7D29FB4C4472039A51B02394A3 /* Pods-RJCityPicker_Tests-dummy.m */,
+				81F6D3447DB7136E15FF4EE32235DAC5 /* Pods-RJCityPicker_Tests-frameworks.sh */,
+				6CC43881B48ACC85A43082C84E51B2AC /* Pods-RJCityPicker_Tests-resources.sh */,
+				B8D210815FF971B683DBB31F29E46A54 /* Pods-RJCityPicker_Tests-umbrella.h */,
+				9E3CE8A8230841927E718866D463C41D /* Pods-RJCityPicker_Tests.debug.xcconfig */,
+				B4A0B25976C35D380ADA5286E2488A3E /* Pods-RJCityPicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-RJCityPicker_Tests";
+			path = "Target Support Files/Pods-RJCityPicker_Tests";
+			sourceTree = "<group>";
+		};
+		8D87CC66E231DDEFA2E7AFCF299F08B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				276203C2427E95063B1BE8197055B087 /* unicode_to_hanyu_pinyin.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		92BF21E27487CFB43F9CF1599199A12E /* RJCityPicker */ = {
+			isa = PBXGroup;
+			children = (
+				693E215E8B1396263A90C8B13D212646 /* Color+Extension.swift */,
+				4EA7ACFD6EAE07D6963ECB447E2BE1FA /* RJAreaManager.swift */,
+				CF4F6C4713CE9FAD99AFF3088EF3A7DD /* RJCityPickerCityHeaderView.swift */,
+				3B862A99FD11B08C920AF2D1A14334C5 /* RJCityPickerHeaderViewCollectionViewCell.swift */,
+				5E806F3D987FC9A073C80A53FA6B38CA /* RJCityPickerInitialsHeaderView.swift */,
+				AB8CB6FBABAD13B9AD104BEF516EF62A /* RJCityPickerSearchView.swift */,
+				F5CC3D9CECDA19E88DF52F7AB3E737A5 /* RJCityPickerViewController.swift */,
+				90F923ED9DBDE85AC1EE69D5BF521AAD /* RJLayout.swift */,
+				6E816F20F51F40D9F45800DFF10DD5D2 /* RJLocationManager.swift */,
+				2DA96243CDD764744AD4F81671E4C50B /* String+Extension.swift */,
+				A7BFFB83836043E8317E1423787EDB65 /* UIView+Extension.swift */,
+				59B840B0E0D4088C10FD41CA77E31C29 /* Pod */,
+				FB3E1D80AD94EEE71D0F3D49577615AA /* Resources */,
+				62E8E55A2EC9B1EBCF719C9D351CF219 /* Support Files */,
+			);
+			name = RJCityPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		96D3AC744E7E6765F8BCAAF6D38CFDDF /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				5887F728D7F8D69FE229D6EEFCBCC672 /* standard */,
+				138067EF7933B196F68884DEB046BBE0 /* Support Files */,
+			);
+			name = FMDB;
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		A92D231D8451B1F656EC65640F6A9887 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CFA7A6104DFEA10267A27367176DD89 /* Info.plist */,
+				C49121696E2102CD43DCE6E0F855436C /* Pinyin4Swift.modulemap */,
+				0441115BEFE0D91E86E21AD07B35F3B4 /* Pinyin4Swift.xcconfig */,
+				44BDE2DD597FABE94C846A07546EFD13 /* Pinyin4Swift-dummy.m */,
+				C277CF7737C82793DAB9EF363B8722EE /* Pinyin4Swift-prefix.pch */,
+				54127A11876A3944DC744DE0035887B7 /* Pinyin4Swift-umbrella.h */,
+				67A06E4701A3F459B0ACF963F1329CF6 /* ResourceBundle-Pinyin4Swift-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pinyin4Swift";
+			sourceTree = "<group>";
+		};
+		B6B1A89B6C0615283693CAA1312F531F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58CA194B97185297ECC6179D6DE4B0FE /* Pods-RJCityPicker_Example */,
+				816A6FE7F79E604FE2FF1D60CD621B55 /* Pods-RJCityPicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E091A7F61B6C5FAB3790689A804FFD05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96D3AC744E7E6765F8BCAAF6D38CFDDF /* FMDB */,
+				063882BF645109786B9301C50EAE45B0 /* Pinyin4Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB3E1D80AD94EEE71D0F3D49577615AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				33428168BC0A51F6335BB3DE9A29ADF9 /* cities.plist */,
+				3A1EB11C38DB50E55102C9BA2A60017C /* shop_area.sqlite */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D2A080C5CD4ED4520C6AEFA1D6BA26F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11FAB91014130EE233A3429439D38D7 /* FMDatabase.h in Headers */,
+				A548833BE5FAD40830428F36E77D0F52 /* FMDatabaseAdditions.h in Headers */,
+				9B8D84996694C541CD3434386E0A081A /* FMDatabasePool.h in Headers */,
+				22554065FA07F1BFE5308A685394CB12 /* FMDatabaseQueue.h in Headers */,
+				96E70B43FC04BC99AED1BBD4FB1D7581 /* FMDB-umbrella.h in Headers */,
+				CCB74062CE0F4B8E5B7483599BC398DA /* FMDB.h in Headers */,
+				3E43906B70EB01C06F3AE17008B853B9 /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4486463DD9A957D1E541211F9E6BA59C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ABE45AB141204FFCC77B8E8B5034FD7 /* Pods-RJCityPicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4801D511F81B2002C398E4037CD08512 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2713CADF6C5AF54DAFBA99018FFDEA37 /* Pinyin4Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3FF357DDE60E908768CFA0557627F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A6FBD414FA93CB22666A4B3ABCB538 /* RJCityPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE0FCA659F28BB11365D6F99589106D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C574151C8393287125DDD590E47C4ADF /* Pods-RJCityPicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		163065204827EA1818B19FD4D62C62A8 /* Pinyin4Swift-Pinyin4Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7883499D867CF99DF9275FD03F2D405B /* Build configuration list for PBXNativeTarget "Pinyin4Swift-Pinyin4Swift" */;
+			buildPhases = (
+				76F11C02368523C134CF04C846C3E152 /* Sources */,
+				8FEF96E2D344A79EBCB767C98A663B30 /* Frameworks */,
+				CDBFFAB32A7ACC9EBA2A91E918EBA544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pinyin4Swift-Pinyin4Swift";
+			productName = "Pinyin4Swift-Pinyin4Swift";
+			productReference = D3A69EB1BBD11F9F6F9C6001E225F300 /* Pinyin4Swift.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		251BAD17812F7EBF6532EACF66F941C3 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0566FF0CE681AC326D316CEC45A8CF /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				8FE0D4B503A94502F3431DC0DCB58040 /* Sources */,
+				EEFB61A65EB8DA6653B544822EB9CE44 /* Frameworks */,
+				3D2A080C5CD4ED4520C6AEFA1D6BA26F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = A769B2084EE298698CB86A18A784F03D /* FMDB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E526A8A284204836AD3E50A597BBA51 /* Pinyin4Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC8FB38BE254B16457FC57F2164F6D9 /* Build configuration list for PBXNativeTarget "Pinyin4Swift" */;
+			buildPhases = (
+				DFFC5C9EF8624E9296B5CB5B601E750F /* Sources */,
+				3BEDFCA96FA268A2A6AA1B8D97AE8D55 /* Frameworks */,
+				373621C7B9A6C094E6C1E15CE642B6BB /* Resources */,
+				4801D511F81B2002C398E4037CD08512 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				655501AD5F076F845079F8EFAC03F6F4 /* PBXTargetDependency */,
+			);
+			name = Pinyin4Swift;
+			productName = Pinyin4Swift;
+			productReference = F3F17BC3B7C90061EB0FBCFF4CDC386B /* Pinyin4Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68C8E467BB1136994656A7BE25FD2491 /* RJCityPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D30ADD4A65564D1F2EEC7CF020BE6D4 /* Build configuration list for PBXNativeTarget "RJCityPicker" */;
+			buildPhases = (
+				90F9820DB4A4DADE0CF15E8954B284F3 /* Sources */,
+				5D8F3201B185BF193F54EDEAE12D8507 /* Frameworks */,
+				96B92D2370CFC47267758B3BD56B089E /* Resources */,
+				8E3FF357DDE60E908768CFA0557627F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2320937E37C7736EE8288AD13F63E00D /* PBXTargetDependency */,
+				65C9054191FEE8E8FCEF2F31F5D2A20D /* PBXTargetDependency */,
+				5DC75C3BED8008EF917C531A3C29DDE0 /* PBXTargetDependency */,
+			);
+			name = RJCityPicker;
+			productName = RJCityPicker;
+			productReference = 1097F3E7E1047D753D7D67FD1596A126 /* RJCityPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9254EC683E25546F8682329D314CB9F /* Pods-RJCityPicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FE50624F0A5D7B40074ADBF27A73E65 /* Build configuration list for PBXNativeTarget "Pods-RJCityPicker_Example" */;
+			buildPhases = (
+				BDCBCA012655BD211AA43A070997E899 /* Sources */,
+				CE20EE04BF6719A14AEDBF9E2635D198 /* Frameworks */,
+				DDE0FCA659F28BB11365D6F99589106D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC7626FDB8015435B0B27CA0C763A16 /* PBXTargetDependency */,
+				C7A543A6B2B06D46A3381A9D572C5B2D /* PBXTargetDependency */,
+				2079572C0BCFAF744236BBD2CC9A2F58 /* PBXTargetDependency */,
+			);
+			name = "Pods-RJCityPicker_Example";
+			productName = "Pods-RJCityPicker_Example";
+			productReference = 112A4CA86713A0C887949BC6D6830E71 /* Pods_RJCityPicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2DAEA50B344A0A6C4B27D75A83B38B4 /* RJCityPicker-RJCityPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ABCA9E884F553570480EAA14F247F84 /* Build configuration list for PBXNativeTarget "RJCityPicker-RJCityPicker" */;
+			buildPhases = (
+				9C3C8CF3B7F3C0493D677C766777A5D6 /* Sources */,
+				5C6575C6B9F899B8E53C3DD0B080DBDA /* Frameworks */,
+				BC7D792CF00E82749A9BB23E8B8AC607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RJCityPicker-RJCityPicker";
+			productName = "RJCityPicker-RJCityPicker";
+			productReference = 1A685371F70CCE7E96FF5E380A1C0DEF /* RJCityPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F37839FD889513EF7E9FE19AAA4C3C97 /* Pods-RJCityPicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C026DF963B9411F03E1103187B587448 /* Build configuration list for PBXNativeTarget "Pods-RJCityPicker_Tests" */;
+			buildPhases = (
+				A894DB5C1D78ADFAC2E644966182D351 /* Sources */,
+				D9AD239FBCD3D26587DE34C51AADEEA5 /* Frameworks */,
+				4486463DD9A957D1E541211F9E6BA59C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RJCityPicker_Tests";
+			productName = "Pods-RJCityPicker_Tests";
+			productReference = D500169EA16AF2D5ADD65D7781EC509C /* Pods_RJCityPicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1FCE48D261C4A4F8844089F3E5048EBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				251BAD17812F7EBF6532EACF66F941C3 /* FMDB */,
+				4E526A8A284204836AD3E50A597BBA51 /* Pinyin4Swift */,
+				163065204827EA1818B19FD4D62C62A8 /* Pinyin4Swift-Pinyin4Swift */,
+				A9254EC683E25546F8682329D314CB9F /* Pods-RJCityPicker_Example */,
+				F37839FD889513EF7E9FE19AAA4C3C97 /* Pods-RJCityPicker_Tests */,
+				68C8E467BB1136994656A7BE25FD2491 /* RJCityPicker */,
+				C2DAEA50B344A0A6C4B27D75A83B38B4 /* RJCityPicker-RJCityPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		373621C7B9A6C094E6C1E15CE642B6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C0988DCE74B6A51DB3E403F17DA8A5 /* Pinyin4Swift.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B92D2370CFC47267758B3BD56B089E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD40A3C4387002F5DCC54FDBA1AC4109 /* RJCityPicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7D792CF00E82749A9BB23E8B8AC607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339B23371643CCA6B71EBE0382E6C597 /* cities.plist in Resources */,
+				A67E2B0264DD61071648D8781F94846E /* shop_area.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBFFAB32A7ACC9EBA2A91E918EBA544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6EC004E057A22DE0CA7990B0D1421D /* unicode_to_hanyu_pinyin.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76F11C02368523C134CF04C846C3E152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE0D4B503A94502F3431DC0DCB58040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F097E2269EF1BD238AD7449D796445 /* FMDatabase.m in Sources */,
+				9C11A290C9C5866A185A54F1EC04E2BB /* FMDatabaseAdditions.m in Sources */,
+				C605A44DF96E7FCACF7D6E37B62F795D /* FMDatabasePool.m in Sources */,
+				A1B5D80A8998311B8C9043E6942925E6 /* FMDatabaseQueue.m in Sources */,
+				D5991941DC41DDDDDACAE0B5D47A4639 /* FMDB-dummy.m in Sources */,
+				87ECA447DB887426665260651B7F147E /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F9820DB4A4DADE0CF15E8954B284F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BCCD15D02258FC3000881021198424 /* Color+Extension.swift in Sources */,
+				3138C9E9A18F2F0CF5A6E0ABB302A753 /* RJAreaManager.swift in Sources */,
+				A4B3CE423EE1ED1CAEC7DB0FD135E09E /* RJCityPicker-dummy.m in Sources */,
+				E4F849EC472C79C294AC7A994177E3D1 /* RJCityPickerCityHeaderView.swift in Sources */,
+				91767D9DBEFD8189BC62C01CA57874F8 /* RJCityPickerHeaderViewCollectionViewCell.swift in Sources */,
+				0284705C5457D0C045D77A5C24BD87B2 /* RJCityPickerInitialsHeaderView.swift in Sources */,
+				2E461FDACA9DA24B521E46587350F546 /* RJCityPickerSearchView.swift in Sources */,
+				B4E580E485B602D4AE2388C94E9243D0 /* RJCityPickerViewController.swift in Sources */,
+				166FE45AB785D3E3F9D92761E9F9FCA4 /* RJLayout.swift in Sources */,
+				97E374751CF601314C8AAF356E891EB8 /* RJLocationManager.swift in Sources */,
+				CE99914A080D51011FB12CFBFB160903 /* String+Extension.swift in Sources */,
+				3CBA2195703A6AB13D15E48451AFEB78 /* UIView+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3C8CF3B7F3C0493D677C766777A5D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A894DB5C1D78ADFAC2E644966182D351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CB408C2511F9A8E03629F0199D0C02 /* Pods-RJCityPicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCBCA012655BD211AA43A070997E899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72F0F367380CA935F19AE5BAD18C508 /* Pods-RJCityPicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFC5C9EF8624E9296B5CB5B601E750F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914BE25C3A5703A0DF35F5CBE3D60C74 /* Bundle+Pinyin4Swift.swift in Sources */,
+				5FB79DF7B9C2E7E6FE146E9D4E76ACD3 /* OutputFormat.swift in Sources */,
+				7138AA46A167BDBB0B8DE278E80BCF0D /* Pinyin4Swift-dummy.m in Sources */,
+				B463C6ACCB8FDC25D350CA17C0D2ABC8 /* PinyinFormatter.swift in Sources */,
+				DA04B8ECA46BA6506758177AFD1F449C /* PinyinHelper.swift in Sources */,
+				C77E7E3F2D34D88318BC6EBADB5AFA12 /* PinyinResource.swift in Sources */,
+				AAD8836184B5F8BE044E380850D3C0F9 /* String+Pinyin4Swift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2079572C0BCFAF744236BBD2CC9A2F58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RJCityPicker;
+			target = 68C8E467BB1136994656A7BE25FD2491 /* RJCityPicker */;
+			targetProxy = 588F254025616D6DCA246B8F1BD2C718 /* PBXContainerItemProxy */;
+		};
+		2320937E37C7736EE8288AD13F63E00D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 251BAD17812F7EBF6532EACF66F941C3 /* FMDB */;
+			targetProxy = FCE9F3F17F4AFE8188FAFBB3F3D334F1 /* PBXContainerItemProxy */;
+		};
+		5DC75C3BED8008EF917C531A3C29DDE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RJCityPicker-RJCityPicker";
+			target = C2DAEA50B344A0A6C4B27D75A83B38B4 /* RJCityPicker-RJCityPicker */;
+			targetProxy = 70B1F7ACADE730A11FD2C30407C649B9 /* PBXContainerItemProxy */;
+		};
+		655501AD5F076F845079F8EFAC03F6F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pinyin4Swift-Pinyin4Swift";
+			target = 163065204827EA1818B19FD4D62C62A8 /* Pinyin4Swift-Pinyin4Swift */;
+			targetProxy = FAE4CC7938CB04A7894C662F26C39E74 /* PBXContainerItemProxy */;
+		};
+		65C9054191FEE8E8FCEF2F31F5D2A20D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pinyin4Swift;
+			target = 4E526A8A284204836AD3E50A597BBA51 /* Pinyin4Swift */;
+			targetProxy = AAF2DE8AB9478949DDC2C5571F129465 /* PBXContainerItemProxy */;
+		};
+		BEC7626FDB8015435B0B27CA0C763A16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 251BAD17812F7EBF6532EACF66F941C3 /* FMDB */;
+			targetProxy = 7A73211780D38E3B1B5E7501E2DDEA25 /* PBXContainerItemProxy */;
+		};
+		C7A543A6B2B06D46A3381A9D572C5B2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pinyin4Swift;
+			target = 4E526A8A284204836AD3E50A597BBA51 /* Pinyin4Swift */;
+			targetProxy = D44A8681F2C970E26E6D0847D7B8C7C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		98AA4D32F15751A486A2F4C748B4A951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0441115BEFE0D91E86E21AD07B35F3B4 /* Pinyin4Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pinyin4Swift/Pinyin4Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pinyin4Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pinyin4Swift/Pinyin4Swift.modulemap";
+				PRODUCT_NAME = Pinyin4Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA0B5B2746139D77AF564C1741AB49A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF43EBD1987B4308FEE3ABB325968D7 /* Pods-RJCityPicker_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RJCityPicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RJCityPicker_Example/Pods-RJCityPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RJCityPicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAE5018F769D40EBBC7FE912379E9543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0441115BEFE0D91E86E21AD07B35F3B4 /* Pinyin4Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pinyin4Swift";
+				INFOPLIST_FILE = "Target Support Files/Pinyin4Swift/ResourceBundle-Pinyin4Swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Pinyin4Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AD4EFDD5DC88E4F210ED66E1E6843B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0441115BEFE0D91E86E21AD07B35F3B4 /* Pinyin4Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pinyin4Swift/Pinyin4Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pinyin4Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pinyin4Swift/Pinyin4Swift.modulemap";
+				PRODUCT_NAME = Pinyin4Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4682E1A7421F0DFB6E04C1B75B00F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99394FED31E049AD588FF126F838D0C1 /* Pods-RJCityPicker_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RJCityPicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RJCityPicker_Example/Pods-RJCityPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RJCityPicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C994755D4421929A53C64E5F48DD6068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60501020C5A5223491B07685A0E6E23D /* RJCityPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RJCityPicker/RJCityPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RJCityPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RJCityPicker/RJCityPicker.modulemap";
+				PRODUCT_NAME = RJCityPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CAE5436BC65FBCCDC39F470C5E40F7E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60501020C5A5223491B07685A0E6E23D /* RJCityPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RJCityPicker/RJCityPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RJCityPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RJCityPicker/RJCityPicker.modulemap";
+				PRODUCT_NAME = RJCityPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB76DDDDCC35ED5A03FDA4B1D76D919C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0441115BEFE0D91E86E21AD07B35F3B4 /* Pinyin4Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pinyin4Swift";
+				INFOPLIST_FILE = "Target Support Files/Pinyin4Swift/ResourceBundle-Pinyin4Swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Pinyin4Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DF43D3C14439146F5DF3C9D5155BB3D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E3CE8A8230841927E718866D463C41D /* Pods-RJCityPicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RJCityPicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RJCityPicker_Tests/Pods-RJCityPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RJCityPicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF59F9EAD3A14631E9FFD007E1A70265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B172CE19D6F8FEF2CD805CBE53BE67B5 /* FMDB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E56EA4229E22E0BEF9F6800BFE6DDF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60501020C5A5223491B07685A0E6E23D /* RJCityPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RJCityPicker";
+				INFOPLIST_FILE = "Target Support Files/RJCityPicker/ResourceBundle-RJCityPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = RJCityPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F4A3BE47E5388D694D21599E3DD420CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B172CE19D6F8FEF2CD805CBE53BE67B5 /* FMDB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F80DC4B1E4DD42A9F99BA19503A2999B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60501020C5A5223491B07685A0E6E23D /* RJCityPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RJCityPicker";
+				INFOPLIST_FILE = "Target Support Files/RJCityPicker/ResourceBundle-RJCityPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = RJCityPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		FB344CDAEA0953049A32FDDBD9E2146D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4A0B25976C35D380ADA5286E2488A3E /* Pods-RJCityPicker_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RJCityPicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RJCityPicker_Tests/Pods-RJCityPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RJCityPicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FE50624F0A5D7B40074ADBF27A73E65 /* Build configuration list for PBXNativeTarget "Pods-RJCityPicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4682E1A7421F0DFB6E04C1B75B00F30 /* Debug */,
+				AA0B5B2746139D77AF564C1741AB49A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D30ADD4A65564D1F2EEC7CF020BE6D4 /* Build configuration list for PBXNativeTarget "RJCityPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE5436BC65FBCCDC39F470C5E40F7E8 /* Debug */,
+				C994755D4421929A53C64E5F48DD6068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B0566FF0CE681AC326D316CEC45A8CF /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF59F9EAD3A14631E9FFD007E1A70265 /* Debug */,
+				F4A3BE47E5388D694D21599E3DD420CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7883499D867CF99DF9275FD03F2D405B /* Build configuration list for PBXNativeTarget "Pinyin4Swift-Pinyin4Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE5018F769D40EBBC7FE912379E9543 /* Debug */,
+				CB76DDDDCC35ED5A03FDA4B1D76D919C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ABCA9E884F553570480EAA14F247F84 /* Build configuration list for PBXNativeTarget "RJCityPicker-RJCityPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E56EA4229E22E0BEF9F6800BFE6DDF28 /* Debug */,
+				F80DC4B1E4DD42A9F99BA19503A2999B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C026DF963B9411F03E1103187B587448 /* Build configuration list for PBXNativeTarget "Pods-RJCityPicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF43D3C14439146F5DF3C9D5155BB3D3 /* Debug */,
+				FB344CDAEA0953049A32FDDBD9E2146D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC8FB38BE254B16457FC57F2164F6D9 /* Build configuration list for PBXNativeTarget "Pinyin4Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4EFDD5DC88E4F210ED66E1E6843B39 /* Debug */,
+				98AA4D32F15751A486A2F4C748B4A951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
